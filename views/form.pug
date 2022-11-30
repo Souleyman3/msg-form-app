@@ -1,0 +1,22 @@
+extends layout
+
+block content
+  h1= title
+  p Welcome to #{title}
+  br
+  p #{messages[0].user}
+  p #{messages[0].text}
+  p #{messages[0].added}
+
+
+//- extends layout
+
+//- block content
+//-   form(action="/new", method="POST") 
+//-     input(type="name", name="firstname" placeholder="name here")
+//-     br
+//-     br
+//-     input(type="text", name="messagePost" placeholder="message here")
+//-     br
+//-     br
+//-     button(type="submit") submit
